@@ -1,0 +1,105 @@
+[
+    {
+        "id": "1",
+        "nombre": "Cuenta Ahorros Digital",
+        "tipo": "Cuenta",
+        "tasaInteres": "3.2%",
+        "riesgo": "Bajo",
+        "categoria": "Ahorro",
+        "descripcion": "Cuenta de ahorros sin comisiones, acceso 100% digital."
+    },
+    {
+        "id": "2",
+        "nombre": "Cuenta Nómina Plus",
+        "tipo": "Cuenta",
+        "tasaInteres": "2.5%",
+        "riesgo": "Bajo",
+        "categoria": "Ahorro",
+        "descripcion": "Cuenta ideal para recibir tu salario con beneficios exclusivos."
+    },
+    {
+        "id": "3",
+        "nombre": "Tarjeta de Crédito Clásica",
+        "tipo": "Tarjeta",
+        "riesgo": "Medio",
+        "categoria": "Crédito",
+        "descripcion": "Tarjeta sin cuota de manejo y con cashback del 1%."
+    },
+    {
+        "id": "4",
+        "nombre": "Tarjeta de Crédito Travel",
+        "tipo": "Tarjeta",
+        "riesgo": "Medio",
+        "categoria": "Crédito",
+        "descripcion": "Tarjeta con millas y beneficios para viajeros frecuentes."
+    },
+    {
+        "id": "5",
+        "nombre": "Fondo Conservador",
+        "tipo": "Fondo",
+        "tasaInteres": "4.1%",
+        "riesgo": "Bajo",
+        "categoria": "Inversión",
+        "descripcion": "Ideal para perfiles conservadores que buscan estabilidad."
+    },
+    {
+        "id": "6",
+        "nombre": "Fondo Alto Riesgo Tech",
+        "tipo": "Fondo",
+        "tasaInteres": "9.8%",
+        "riesgo": "Alto",
+        "categoria": "Inversión",
+        "descripcion": "Fondo de inversión en startups tecnológicas."
+    },
+    {
+        "id": "7",
+        "nombre": "Seguro de Vida Básico",
+        "tipo": "Seguro",
+        "riesgo": "Bajo",
+        "categoria": "Seguros",
+        "descripcion": "Protección económica para tu familia en caso de fallecimiento."
+    },
+    {
+        "id": "8",
+        "nombre": "Seguro de Auto Total",
+        "tipo": "Seguro",
+        "riesgo": "Medio",
+        "categoria": "Seguros",
+        "descripcion": "Cobertura total para accidentes, robo e incidentes."
+    },
+    {
+        "id": "9",
+        "nombre": "Crédito Hipotecario Vivienda",
+        "tipo": "Crédito",
+        "tasaInteres": "11.2%",
+        "riesgo": "Medio",
+        "categoria": "Financiamiento",
+        "descripcion": "Crédito para compra de vivienda con tasa preferencial."
+    },
+    {
+        "id": "10",
+        "nombre": "Crédito Vehículo Verde",
+        "tipo": "Crédito",
+        "tasaInteres": "9.5%",
+        "riesgo": "Medio",
+        "categoria": "Financiamiento",
+        "descripcion": "Crédito para adquisición de vehículos eléctricos."
+    },
+    {
+        "id": "11",
+        "nombre": "Cuenta Kids",
+        "tipo": "Cuenta",
+        "tasaInteres": "3.0%",
+        "riesgo": "Bajo",
+        "categoria": "Ahorro",
+        "descripcion": "Cuenta de ahorros para menores con control parental."
+    },
+    {
+        "id": "12",
+        "nombre": "Tarjeta Prepago Joven",
+        "tipo": "Tarjeta",
+        "riesgo": "Bajo",
+        "categoria": "Crédito",
+        "descripcion": "Tarjeta prepago sin riesgos, ideal para jóvenes y estudiantes."
+    }
+]
