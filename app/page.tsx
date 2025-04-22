@@ -6,13 +6,14 @@ import ProductSection from '../components/ProductSection'
 import About from '../components/About'
 import News from '../components/News'
 import CTASection from '../components/CTASection'
+import ProductToggle from '@/components/ProductToggle'
 
 export default function Home() {
   return (
     <>
       <Hero />
       <Features />
-      <ProductSection />
+      <ProductToggle />
       <About />
       <News />
       <CTASection />

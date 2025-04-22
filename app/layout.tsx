@@ -1,3 +1,5 @@
+import { Facebook, Twitter, Instagram } from 'lucide-react'
+import Navbar from '@/components/Navbar'
 import './globals.css'
 import type { Metadata } from 'next'
 
@@ -11,17 +13,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="es">
       <body className="bg-white text-gray-900 font-sans">
         <header className="bg-white shadow-md py-4 sticky top-0 z-50">
-          <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
-            <div className="text-2xl font-bold text-green-700">FintechPro</div>
-            <nav className="space-x-4 text-sm font-medium hidden md:block">
-              <a href="#productos" className="text-gray-700 hover:text-green-700">Productos</a>
-              <a href="#nosotros" className="text-gray-700 hover:text-green-700">Nosotros</a>
-              <a href="#noticias" className="text-gray-700 hover:text-green-700">Noticias</a>
-              <a href="#contacto" className="text-gray-700 hover:text-green-700">Contacto</a>
-              <a href="#" className="px-3 py-1 bg-gray-800 text-white rounded-full">Hazte Cliente</a>
-              <a href="#" className="px-3 py-1 bg-green-700 text-white rounded-full">Banca en línea</a>
-            </nav>
-          </div>
+          <header className="bg-white shadow-md py-4 sticky top-0 z-50">
+            <Navbar />
+          </header>
+
         </header>
 
         <main className="max-w-7xl mx-auto px-4 py-10 bg-white">{children}</main>
@@ -51,13 +46,20 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <li>WhatsApp: +57 1 5878000</li>
                 <li>Banca Telefónica: (601) 587 8000</li>
                 <li>Email: contacto@fintechpro.com</li>
-                <li className="flex gap-3 mt-3">
-                  <span className="bg-gray-700 rounded-full w-6 h-6"></span>
-                  <span className="bg-gray-700 rounded-full w-6 h-6"></span>
-                  <span className="bg-gray-700 rounded-full w-6 h-6"></span>
+                <li className="flex gap-3 mt-3 text-white">
+                  <a href="#"><Facebook className="w-6 h-6 hover:text-green-400" /></a>
+                  <a href="#"><Twitter className="w-6 h-6 hover:text-green-400" /></a>
+                  <a href="#"><Instagram className="w-6 h-6 hover:text-green-400" /></a>
                 </li>
               </ul>
             </div>
+          </div>
+          <div className="mt-10 flex justify-center">
+            <img
+              src="/fintech_logo.png"
+              alt="Logo FintechPro"
+              className="h-24 md:h-28 w-auto object-contain opacity-90 hover:opacity-100 transition-opacity duration-300"
+            />
           </div>
         </footer>
       </body>

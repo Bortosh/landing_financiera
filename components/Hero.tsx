@@ -7,7 +7,7 @@ export default function Hero() {
                 <div>
                     <h1 className="text-4xl font-bold mb-4">Bienvenid@ a FintechPro</h1>
                     <p className="text-lg mb-6">Queremos liberarte de procesos complicados para que puedas disfrutar tu vida intensamente</p>
-                    <a href="#productos" className="bg-white text-green-700 font-semibold px-6 py-2 rounded-full inline-block">
+                    <a href="#" className="bg-white text-green-700 font-semibold px-6 py-2 rounded-full inline-block">
                         Abrir mi cuenta
                     </a>
                 </div>
