@@ -3,13 +3,29 @@ import { Product } from '@/types/product'
 import productsData from '@/data/mock-products.json'
 import Link from 'next/link'
 import Image from 'next/image'
+import type { Metadata } from 'next'
+import { getProductById } from '../../../lib/getProductById.ts'
 
-interface Params {
-    params: { id: string }
+type PageProps = {
+    params: {
+        id: string
+    }
 }
 
-export default function ProductDetail({ params }: Params) {
-    const product = (productsData as Product[]).find(p => p.id === params.id)
+// export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+//     const product = await getProductById(params.id)
+//     return {
+//         title: product ? product.nombre : 'Producto no encontrado',
+//     }
+// }
+
+
+
+export default async function ProductDetail({ params }: PageProps) {
+
+    const { id } = params
+
+    const product = await getProductById(id)
 
     if (!product) return notFound()
 
