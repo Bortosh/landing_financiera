@@ -119,6 +119,17 @@ Tailwind fue ideal para estilos rápidos y utilitarios en layout general, espaci
 - **LogRocket** o **Clarity** para comportamiento de usuario
 - **Bundle Analyzer** para analizar peso del build
 
+
+---
+
+## 🟢 Deployment
+
+El proyecto está desplegado y disponible en línea en:
+
+🔗 [https://www.fintechramirez.xyz](https://www.fintechramirez.xyz)
+
+Puedes acceder y probar la experiencia completa de navegación, visualización de productos y estructura responsive directamente desde tu navegador.
+
 ---
 
 ## 📬 Contacto
