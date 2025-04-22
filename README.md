@@ -23,6 +23,7 @@ landing-financiera/
 ├── app/
 │   ├── layout.tsx
 │   ├── page.tsx
+│   ├── globals.css
 │   └── product/[id]/page.tsx
 ├── components/
 │   ├── Navbar.tsx
@@ -33,8 +34,6 @@ landing-financiera/
 │   └── mock-products-sin-riesgo.json
 ├── public/
 │   └── img/... (imagenes de productos y logo)
-├── styles/
-│   └── globals.css
 ├── types/
 │   └── product.ts
 ├── README.md
