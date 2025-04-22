@@ -92,6 +92,35 @@ Incluyen:
 
 ---
 
+## 🧩 Preguntas complementarias
+
+**1. ¿Qué criterios seguiste para diseñar la UI de productos financieros?**
+
+Me enfoqué en un diseño claro, moderno y confiable, usando una paleta de colores que transmitiera seguridad (verde, blanco, gris) y priorizando la legibilidad. La estructura está inspirada en modelos reales de banca digital, con un enfoque en mobile-first y experiencia de usuario fluida.
+
+**2. ¿Cómo decidiste cuándo usar Tailwind y cuándo Styled Components?**
+
+Tailwind fue ideal para estilos rápidos y utilitarios en layout general, espaciados, colores, tamaños, etc. Usé Styled Components cuando necesitaba encapsular estilos en componentes reutilizables como `ProductCard`, permitiendo una mayor cohesión y mantenimiento de estilos a largo plazo.
+
+**3. ¿Qué harías para escalar este proyecto en una aplicación real de banca digital?**
+
+- Implementaría consumo desde una API real (REST o GraphQL)
+- Autenticación con OAuth o JWT
+- Dashboard para usuarios logueados
+- Tests unitarios e integración (Jest + RTL)
+- Módulo de administración de productos
+- Persistencia de estado global (Zustand o Redux)
+
+**4. ¿Qué herramientas usarías para mejorar el rendimiento y monitoreo en producción?**
+
+- **Vercel Analytics** para tráfico y métricas
+- **Lighthouse** y **Core Web Vitals** para performance
+- **Sentry** para monitoreo de errores en frontend
+- **LogRocket** o **Clarity** para comportamiento de usuario
+- **Bundle Analyzer** para analizar peso del build
+
+---
+
 ## 📬 Contacto
 Desarrollado por **Rogelio Ramírez Carmona** – Frontend Developer.
 
