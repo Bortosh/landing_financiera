@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FintechPro – Tu Banca Digital
 
-## Getting Started
+Landing page para una fintech moderna, confiable y centrada en el usuario. Presenta productos financieros digitales con filtros interactivos, animaciones suaves, navegación mobile-first y estructura modular. Perfecta para empresas de tecnología financiera, banca digital o como demostración profesional de habilidades frontend.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Tecnologías utilizadas (más relevantes)
+
+- **Next.js 15 App Router** – Routing moderno y estructura optimizada
+- **React 19** – Última versión con soporte para server components
+- **TypeScript** – Tipado estricto y componentes seguros
+- **TailwindCSS v4** – Utilidades para un diseño rápido y responsivo
+- **Framer Motion** – Animaciones suaves y accesibles
+- **Styled Components** – Componentes estilizados reutilizables
+- **Lucide React** – Íconos modernos y minimalistas
+
+---
+
+## 📁 Estructura del proyecto
+
+```
+landing-financiera/
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── product/[id]/page.tsx
+├── components/
+│   ├── Navbar.tsx
+│   ├── ProductCard.tsx
+│   ├── ProductToggle.tsx
+│   └── (otros por secciones como Hero, Nosotros, etc.)
+├── data/
+│   └── mock-products-sin-riesgo.json
+├── public/
+│   └── img/... (imagenes de productos y logo)
+├── styles/
+│   └── globals.css
+├── types/
+│   └── product.ts
+├── README.md
+└── package.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧠 Funcionalidades destacadas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Diseño 100% responsivo y accesible
+- Filtros por categoría con botones dinámicos
+- Página de detalle individual por producto
+- JSON mockeado con +12 productos financieros
+- Componente toggle animado para mostrar/ocultar productos
+- Indicador visual de tasa de interés
+- Navbar colapsable con menú móvil
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🧪 Accesibilidad (a11y)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `aria-label` en botones e íconos sin texto
+- Navegación por teclado (`tabindex` respetado por semántica HTML)
+- Imágenes con `alt` descriptivos
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🔍 Cómo correr el proyecto localmente
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm install
+npm run dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Visita: `http://localhost:3000`
+
+---
+
+## 📦 Datos mockeados
+
+Se encuentran en:
+```bash
+/data/mock-products-sin-riesgo.json
+```
+Incluyen:
+- `nombre`
+- `tipo`
+- `tasaInteres`
+- `beneficios`
+- `requisitos`
+- `imagen`
+
+---
+
+## 📬 Contacto
+Desarrollado por **Rogelio Ramírez Carmona** – Frontend Developer.
+
+📧 rogelios-1992@hotmail.com
+
+---
+
+> Proyecto profesional enfocado en experiencia de usuario, estructura limpia, diseño claro y rendimiento accesible.
