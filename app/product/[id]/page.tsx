@@ -10,7 +10,6 @@ type PageProps = {
     }
 }
 
-// SEO dinámico (opcional)
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
     const product = await getProductById(params.id)
     return {
