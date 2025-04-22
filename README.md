@@ -87,6 +87,9 @@ Incluyen:
 - `beneficios`
 - `requisitos`
 - `imagen`
+- `categoria`
+- `solicitado`
+- `descripcion`
 
 ---
 
