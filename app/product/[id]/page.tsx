@@ -12,15 +12,6 @@ type PageProps = {
     }
 }
 
-// export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-//     const product = await getProductById(params.id)
-//     return {
-//         title: product ? product.nombre : 'Producto no encontrado',
-//     }
-// }
-
-
-
 export default async function ProductDetail({ params }: PageProps) {
 
     const { id } = params
