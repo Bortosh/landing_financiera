@@ -1,10 +1,7 @@
 import { notFound } from 'next/navigation'
-import { Product } from '@/types/product'
-import productsData from '@/data/mock-products.json'
 import Link from 'next/link'
 import Image from 'next/image'
-import type { Metadata } from 'next'
-import { getProductById } from '../../../lib/getProductById.ts'
+import { getProductById } from '@/lib/getProductById'
 
 type PageProps = {
     params: {
