@@ -2,24 +2,12 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
 import { getProductById } from '@/lib/getProductById'
-import type { Metadata } from 'next'
 
-type PageProps = {
-    params: {
-        id: string
-    }
-}
+export default async function ProductDetail({ params }: any) {
 
-export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-    const product = await getProductById(params.id)
-    return {
-        title: product ? product.nombre : 'Producto no encontrado',
-    }
-}
+    const { id } = await params
 
-export default async function ProductDetail({ params }: PageProps) {
-
-    const product = await getProductById(params.id)
+    const product = await getProductById(id)
 
     if (!product) return notFound()
 
