@@ -4,11 +4,13 @@ import productsData from '@/data/mock-products.json'
 import Link from 'next/link'
 import Image from 'next/image'
 
-interface Params {
-    params: { id: string }
+type Props = {
+    params: {
+        id: string
+    }
 }
 
-export default function ProductDetail({ params }: Params) {
+export default function ProductDetail({ params }: Props) {
     const product = (productsData as Product[]).find(p => p.id === params.id)
 
     if (!product) return notFound()
