@@ -33,7 +33,7 @@ landing-financiera/
 ├── data/
 │   └── mock-products-sin-riesgo.json
 ├── public/
-│   └── img/... (imagenes de productos y logo)
+│   └── (imagenes de productos y logo)
 ├── types/
 │   └── product.ts
 ├── README.md
