@@ -1,0 +1,254 @@
+[
+    {
+        "id": "cuenta-ahorros-digital",
+        "nombre": "Cuenta Ahorros Digital",
+        "tipo": "Cuenta",
+        "categoria": "Seguros",
+        "tasaInteres": "2.8%",
+        "solicitado": "Medio",
+        "descripcion": "Cuenta Ahorros Digital pensado para mejorar tu vida financiera con confianza y tecnología.",
+        "beneficios": [
+            "Acceso digital 24/7",
+            "Sin cuota de manejo",
+            "Aprobación rápida",
+            "Gestión desde la app"
+        ],
+        "requisitos": [
+            "Documento de identidad",
+            "Mayor de edad",
+            "Correo electrónico activo"
+        ],
+        "imagen": "/ahorro_digital.jpg"
+    },
+    {
+        "id": "cuenta-nomina-plus",
+        "nombre": "Cuenta Nómina Plus",
+        "tipo": "Cuenta",
+        "categoria": "Seguros",
+        "tasaInteres": "2.0%",
+        "solicitado": "Alto",
+        "descripcion": "Cuenta Nómina Plus pensado para mejorar tu vida financiera con confianza y tecnología.",
+        "beneficios": [
+            "Acceso digital 24/7",
+            "Sin cuota de manejo",
+            "Aprobación rápida",
+            "Gestión desde la app"
+        ],
+        "requisitos": [
+            "Documento de identidad",
+            "Mayor de edad",
+            "Correo electrónico activo"
+        ],
+        "imagen": "/nomina_plus.jpg"
+    },
+    {
+        "id": "tarjeta-credito-clasica",
+        "nombre": "Tarjeta Crédito Clásica",
+        "tipo": "Tarjeta",
+        "categoria": "Financiamiento",
+        "tasaInteres": "4.0%",
+        "solicitado": "Medio",
+        "descripcion": "Tarjeta Crédito Clásica pensado para mejorar tu vida financiera con confianza y tecnología.",
+        "beneficios": [
+            "Acceso digital 24/7",
+            "Sin cuota de manejo",
+            "Aprobación rápida",
+            "Gestión desde la app"
+        ],
+        "requisitos": [
+            "Documento de identidad",
+            "Mayor de edad",
+            "Correo electrónico activo"
+        ],
+        "imagen": "/credito_clasica.jpg"
+    },
+    {
+        "id": "tarjeta-prepago-joven",
+        "nombre": "Tarjeta Prepago Joven",
+        "tipo": "Tarjeta",
+        "categoria": "Ahorro",
+        "tasaInteres": "4.4%",
+        "solicitado": "Medio",
+        "descripcion": "Tarjeta Prepago Joven pensado para mejorar tu vida financiera con confianza y tecnología.",
+        "beneficios": [
+            "Acceso digital 24/7",
+            "Sin cuota de manejo",
+            "Aprobación rápida",
+            "Gestión desde la app"
+        ],
+        "requisitos": [
+            "Documento de identidad",
+            "Mayor de edad",
+            "Correo electrónico activo"
+        ],
+        "imagen": "/prepago_joven.jpg"
+    },
+    {
+        "id": "credito-vehiculo-verde",
+        "nombre": "Crédito Vehículo Verde",
+        "tipo": "Crédito",
+        "categoria": "Seguros",
+        "tasaInteres": "8.6%",
+        "solicitado": "Medio",
+        "descripcion": "Crédito Vehículo Verde pensado para mejorar tu vida financiera con confianza y tecnología.",
+        "beneficios": [
+            "Acceso digital 24/7",
+            "Sin cuota de manejo",
+            "Aprobación rápida",
+            "Gestión desde la app"
+        ],
+        "requisitos": [
+            "Documento de identidad",
+            "Mayor de edad",
+            "Correo electrónico activo"
+        ],
+        "imagen": "/vehiculo_verde.jpg"
+    },
+    {
+        "id": "credito-hipotecario-vivienda",
+        "nombre": "Crédito Hipotecario Vivienda",
+        "tipo": "Crédito",
+        "categoria": "Ahorro",
+        "tasaInteres": "5.3%",
+        "solicitado": "Medio",
+        "descripcion": "Crédito Hipotecario Vivienda pensado para mejorar tu vida financiera con confianza y tecnología.",
+        "beneficios": [
+            "Acceso digital 24/7",
+            "Sin cuota de manejo",
+            "Aprobación rápida",
+            "Gestión desde la app"
+        ],
+        "requisitos": [
+            "Documento de identidad",
+            "Mayor de edad",
+            "Correo electrónico activo"
+        ],
+        "imagen": "/hipotecario_vivienda.jpg"
+    },
+    {
+        "id": "fondo-conservador",
+        "nombre": "Fondo Conservador",
+        "tipo": "Fondo",
+        "categoria": "Inversión",
+        "tasaInteres": "4.6%",
+        "solicitado": "Medio",
+        "descripcion": "Fondo Conservador pensado para mejorar tu vida financiera con confianza y tecnología.",
+        "beneficios": [
+            "Acceso digital 24/7",
+            "Rentabilidad escalonada",
+            "Aprobación rápida",
+            "Gestión desde la app"
+        ],
+        "requisitos": [
+            "Documento de identidad",
+            "Mayor de edad",
+            "Correo electrónico activo"
+        ],
+        "imagen": "/fondo_conservador.jpg"
+    },
+    {
+        "id": "fondo-alto-solicitado-tech",
+        "nombre": "Fondo Alto solicitado Tech",
+        "tipo": "Fondo",
+        "categoria": "Crédito",
+        "tasaInteres": "1.9%",
+        "solicitado": "Bajo",
+        "descripcion": "Fondo Alto solicitado Tech pensado para mejorar tu vida financiera con confianza y tecnología.",
+        "beneficios": [
+            "Acceso digital 24/7",
+            "Rentabilidad escalonada",
+            "Aprobación rápida",
+            "Gestión desde la app"
+        ],
+        "requisitos": [
+            "Documento de identidad",
+            "Mayor de edad",
+            "Correo electrónico activo"
+        ],
+        "imagen": "/alto_solicitado_tech.jpg"
+    },
+    {
+        "id": "seguro-de-vida-basico",
+        "nombre": "Seguro de Vida Básico",
+        "tipo": "Seguro",
+        "categoria": "Inversión",
+        "tasaInteres": "1.4%",
+        "solicitado": "Medio",
+        "descripcion": "Seguro de Vida Básico pensado para mejorar tu vida financiera con confianza y tecnología.",
+        "beneficios": [
+            "Acceso digital 24/7",
+            "Sin cuota de manejo",
+            "Aprobación rápida",
+            "Gestión desde la app"
+        ],
+        "requisitos": [
+            "Documento de identidad",
+            "Mayor de edad",
+            "Correo electrónico activo"
+        ],
+        "imagen": "/seguro_vida_basico.jpg"
+    },
+    {
+        "id": "seguro-de-auto-total",
+        "nombre": "Seguro de Auto Total",
+        "tipo": "Seguro",
+        "categoria": "Seguros",
+        "tasaInteres": "3.8%",
+        "solicitado": "Bajo",
+        "descripcion": "Seguro de Auto Total pensado para mejorar tu vida financiera con confianza y tecnología.",
+        "beneficios": [
+            "Acceso digital 24/7",
+            "Sin cuota de manejo",
+            "Aprobación rápida",
+            "Gestión desde la app"
+        ],
+        "requisitos": [
+            "Documento de identidad",
+            "Mayor de edad",
+            "Correo electrónico activo"
+        ],
+        "imagen": "/seguro_auto_total.jpg"
+    },
+    {
+        "id": "fondo-educativo",
+        "nombre": "Fondo Educativo",
+        "tipo": "Fondo",
+        "categoria": "Financiamiento",
+        "tasaInteres": "6.6%",
+        "solicitado": "Alto",
+        "descripcion": "Fondo Educativo pensado para mejorar tu vida financiera con confianza y tecnología.",
+        "beneficios": [
+            "Acceso digital 24/7",
+            "Rentabilidad escalonada",
+            "Aprobación rápida",
+            "Gestión desde la app"
+        ],
+        "requisitos": [
+            "Documento de identidad",
+            "Mayor de edad",
+            "Correo electrónico activo"
+        ],
+        "imagen": "/fondo_educativo.jpg"
+    },
+    {
+        "id": "credito-estudiantil",
+        "nombre": "Crédito Estudiantil",
+        "tipo": "Crédito",
+        "categoria": "Financiamiento",
+        "tasaInteres": "6.7%",
+        "solicitado": "Alto",
+        "descripcion": "Crédito Estudiantil pensado para mejorar tu vida financiera con confianza y tecnología.",
+        "beneficios": [
+            "Acceso digital 24/7",
+            "Sin cuota de manejo",
+            "Aprobación rápida",
+            "Gestión desde la app"
+        ],
+        "requisitos": [
+            "Documento de identidad",
+            "Mayor de edad",
+            "Correo electrónico activo"
+        ],
+        "imagen": "/credito_estudiantil.jpg"
+    }
+]
